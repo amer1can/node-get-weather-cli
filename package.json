@@ -1,0 +1,24 @@
+{
+  "name": "get-weather",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "weather.js",
+  "bin": {
+    "weater": "./weather.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "amer1can",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
